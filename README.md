@@ -31,7 +31,7 @@ A simple and clean real-time chat application built using the **MERN stack (Mong
 
 ### 📁 Clone the project
 ```bash
-git clone https://github.com/your-username/chat-app.git
+git clone https://github.com/gvraghuveer/chat-app.git
 cd chat-app
 ```
 
