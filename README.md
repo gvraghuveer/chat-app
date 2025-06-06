@@ -50,13 +50,19 @@ npm install
 ```
 
 ### 🔐 Setup `.env` for backend
-In the `server/` folder, create a `.env` file and add:
 
+In the `server/` folder, create a file named `.env` and add the following:
+
+```env
+PORT=5001
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key ( any random characters )
+CLOUDINARY_CLOUD_NAME=your_cloud_name ( any random characters )
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
 ```
-PORT=5000
-MONGO_URI=your_mongo_connection_string
-JWT_SECRET=your_secret_key
-```
+
+You can get the CLOUDINARY_API_KEY and CLOUDINARY_API_SECRET from [Cloudinary](https://cloudinary.com/)
 
 ### ▶️ Run the app
 
@@ -76,7 +82,7 @@ npm start
 
 ## 🧠 Credits
 
-Inspired by [Codesistency's MERN Chat App Tutorial](https://www.youtube.com/watch?v=ntKkVrQqBYY) — with improvements and personal touches too.
+Inspired by [Codesistency's MERN Chat App Tutorial](https://youtu.be/ntKkVrQqBYY?si=WaKeiGXB_WqgFWGF) — with improvements and personal touch too.
 
 ---
 
