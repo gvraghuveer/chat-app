@@ -76,7 +76,7 @@ npm start
 
 ## 🧠 Credits
 
-Inspired by [@Codesistency's MERN Chat App Tutorial](https://www.youtube.com/watch?v=ntKkVrQqBYY) — with improvements and personal touches too.
+Inspired by [Codesistency's MERN Chat App Tutorial](https://www.youtube.com/watch?v=ntKkVrQqBYY) — with improvements and personal touches too.
 
 ---
 
